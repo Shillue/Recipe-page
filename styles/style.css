@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.conteiner{
+    width: 1440px;
+    height: auto;
+    background-color:hsl(0, 0%, 100%);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin:2% 0% 2% 0%;
+}
+.tituloReceita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgReceita{
+    width: 100%;
+    border-radius: 20px;
+}
+.elementText{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 30px;
+    text-align:left;
+}
+.elementText>h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 50px;
+    color:hsl(25, 5%, 18%);
+}
+.elementText>p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+}
+.preparation{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 25px 20px 25px 20px;
+    padding: 25px;
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+.preparation>h2{
+    color:hsl(332, 51%, 32%);
+    font-size: 30px;
+}
+.itensPreparation, .itensIngredients, .itensInstructions{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    margin-left:40px;
+    color:hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+span{
+font-weight: 600;
+}
+.itensPreparation>li{
+    margin-bottom: 10px;   
+}
+
+.ingredients, .instructions, .nutrition{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    justify-content: center;
+}
+.ingredients>h2, .instructions>h2, .nutrition>h2{
+    font-family: "Young Serif", serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: hsl(14, 45%, 36%);
+}
+.itensIngredients>li, .itensInstructions>li{
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+}
+.linha{
+    margin: 50px 0px 50px 0px;
+    width: 100%;
+    height: 2px;
+    border:0;
+    background-color:hsl(30, 18%, 87%);
+}
+.nutrition p{
+    font-family: "Outfit", sans-serif;
+    margin: 20px 0px;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+}
+.tableNutrition{
+    width: 100%; 
+    height: auto;  
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+    margin: 7px;
+    color:hsl(30, 10%, 34%);
+}
+
+.tableNutritionValor{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+
+}
+.tableNutrition tr{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid hsl(30, 18%, 87%);;
+}
+.tableNutrition td{
+    padding: 15px 30px;
+    width: 50%;
+}
+
+.information{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.information p{
+    margin-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 16px;
+    color:hsl(24, 5%, 18%);
+}
+.information>p>a{
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+.information>p>a:hover{
+    font-weight: 700;
+}
+
+@media (max-width: 1400px){
+    .conteiner{
+        width:375px;
+        margin-top: 0.5%;
+        margin: 1%;
+    }
+    .elementText>h1{
+        font-size: 30px;
+    }
+    .preparation{
+        margin: 15px 10px 15px 10px;
+    }
+    .preparation>h2{
+        font-size: 20px;
+    }
+    .ingredients>h2, .instructions>h2, .nutrition>h2{
+        font-size: 25px;
+    }
+    .information{
+        height: 80px;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+}

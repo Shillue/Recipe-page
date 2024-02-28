@@ -17,11 +17,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![]()
+![Recipe-page](https://github.com/Shillue/Recipe-page/assets/86475008/02b20f6a-2c36-4ff5-99e1-ecdb5be94249)
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Add solution URL here](https://github.com/Shillue/Recipe-page.git)
 - Live Site URL: [Add live site URL here]()
 
 ## My process

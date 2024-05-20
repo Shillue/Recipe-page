@@ -15,7 +15,7 @@ body{
     flex-direction: column;
 }
 .conteiner{
-    width: 1440px;
+    width: 1000px;
     height: auto;
     background-color:hsl(0, 0%, 100%);
     padding: 50px;
